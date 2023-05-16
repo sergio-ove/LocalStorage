@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(183, 188, 188);
+}
+
+h1 {
+    font-size: 50px;
+   
+}
+
+.divTitulo{
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+    align-items: center;
+}
+
+.imgLista{
+    width: 200px;
+}
+
+ul {
+    margin-left: 0px;
+}
+
+.lista{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.lista li {
+    list-style: none;
+
+}
+
+.add {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 100px;
+    transition-duration: 0.4s;
+}
+
+.add:hover {
+    background-color: rgb(28, 114, 226);
+    color: white;
+}
+
+.eliminar{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 100px;
+    transition-duration: 0.4s;
+
+}
+
+.eliminar:hover {
+    background-color: rgb(242, 173, 14);
+    color: white;
+}
+
+
+.tablaProductos {
+    margin: 0 auto;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(242, 173, 14);
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.tablaSeleccionados {
+    margin: 0 auto;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(28, 114, 226);
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.divEliminar {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.botonEliminar {
+    width: 800px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    transition-duration: 0.4s;
+}
+
+
+.botonEliminar:hover {
+    background-color: red;
+    color: white;
+}
