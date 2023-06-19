@@ -1,3 +1,7 @@
 # LocalStorage
-Ejercicio para añadir y quitar productos de una lista de la compra utilizando el localStorage.
-![Local Storage](./img/lista.png)
+Proyecto basado en el manejo del LocalStorage.
+Se añaden y se quitan productos a nuestra lista, de una lista definida según ejecute el usuario.
+
+## Herramientas Utilizadas:
+
+
